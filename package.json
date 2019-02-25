@@ -1,0 +1,29 @@
+{
+  "name": "connectathon-agent",
+  "version": "1.0.0",
+  "description": "* Support Connection Protocol * Support basic message to open * Support trust ping (later)",
+  "main": "index.js",
+  "scripts": {
+    "test": "RUST_LOG=trace mocha test/test_*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "base64-url": "^2.2.0",
+    "base64url": "^3.0.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "indy-sdk": "0.0.4-dev-975",
+    "js-yaml": "^3.12.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "sql-template-strings": "^2.2.2",
+    "sqlite": "^3.0.2",
+    "standard": "^12.0.1",
+    "yargs": "^13.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.0"
+  }
+}

@@ -1,0 +1,3 @@
+node_modules
+*.sqlite
+ubuntu-xenial-16.04-cloudimg-console.log

@@ -1,0 +1,6 @@
+default_wallet_name: 'alice'
+default_wallet_key: '12345'
+default_name: 'Alice'
+default_port: 3000
+invitation_key: 'GPAUJNAf4F8N8rKRtLKdGkxZoj7hAo7S1sT7DJwpS5sb' # Bad practice for correlation reasons to have a single invitation key.
+# hostname: 192.168.1.191 # Uncomment to override public ip or hostname
